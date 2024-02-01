@@ -1,3 +1,4 @@
+//main code
 require('dotenv').config();
 import Redis from 'ioredis';
 import Fastify from 'fastify';
