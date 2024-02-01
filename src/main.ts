@@ -159,7 +159,7 @@ export const tmdbApi = process.env.TMDB_KEY && process.env.TMDB_KEY;
       });
     });
 
-    fastify.listen({ port: PORT, host: '0.0.0.0' }, (e, address) => {
+    fastify.listen({ port: PORT, host: 'consumet-apu.netlify.app' }, (e, address) => {
       if (e) throw e;
       console.log(`server listening on ${address}`);
     });
